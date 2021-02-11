@@ -1,0 +1,14 @@
+colors we are going to use:
+
+#E8B68B
+#CC003D
+#828282
+#FFFFFF
+
+background:
+#ECDFD1
+#E8B68B
+
+acsent colors:
+#e00043
+#f28500
