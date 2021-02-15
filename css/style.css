@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+#boekplaatjeid {
+  margin-top: 100px;
+  color: blue;
+}
+
 #boektoevoegentitel {
   align-items: center;
 }
