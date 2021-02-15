@@ -7,8 +7,8 @@
     <form action="includes/actionboektoevoegen.php" method="post">
 <input type="text" class="Boektoevoegeninputs" id="titelboekid" name="titelboek" placeholder="titelboek..."> <br><br>
 <input type="text" class="Boektoevoegeninputs" id="auteurid" name="auteur" placeholder=" auteur..."> <br><br>
-<input type="text" class="Boektoevoegeninputs" id="boekplaatjeid" name="boekplaatje" placeholder=" boekplaatje..."> <br><br>
 <textarea placeholder="Boekdescriptie" id="Boekdescriptieid" name="Boekdescriptie" rows="4" cols="50"></textarea> <br>
+<input type="file" class="Boektoevoegeninputs"  accept="image/png, image/jpeg" id="boekplaatjeid" name="boekplaatje" placeholder=" boekplaatje..."> <br><br>
 <input type="submit" id="Opslaan" name="Opslaan"  value="Opslaan" placeholder=" Boekdescriptie..."> <br>
  </form>
 

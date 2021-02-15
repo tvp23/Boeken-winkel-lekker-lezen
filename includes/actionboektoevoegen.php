@@ -20,7 +20,7 @@ if(isset($_POST["Opslaan"])){
     
 else{
     $sql = "INSERT INTO boeken (titelboek, auteur, boekplaatje, boekdescriptie) VALUES
-      (:titelboekTemplate, :auteurTemplate, :boekjeplaatjeTemplate, :boekdescriptieTemplate)";
+    (:titelboekTemplate, :auteurTemplate, :boekjeplaatjeTemplate, :boekdescriptieTemplate)";
     $params = array(":titelboekTemplate" => "$titelboek", ":auteurTemplate" => "$auteur", ":boekjeplaatjeTemplate" => "$boekplaatje", ":boekdescriptieTemplate" => "$Boekdescriptie");
     
     $sth = $con->prepare($sql);
