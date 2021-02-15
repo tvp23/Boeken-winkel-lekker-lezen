@@ -13,12 +13,12 @@
  </form>
 
  <?php
- if(isset($_GET["contactError"])){
-    if($_GET["contactError"]== "emptyInput"){
+ if(isset($_GET["Error"])){
+    if($_GET["Error"]== "emptyInput"){
      echo "<p> Please fill in all info.</p>";
  }
 
- if($_GET["contactError"] == "invalidName"){
+ if($_GET["Error"] == "invalidName"){
     echo "<p> Invalid name. Probeer iets anders</p>";
 }
  }
