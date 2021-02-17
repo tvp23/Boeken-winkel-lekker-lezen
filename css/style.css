@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#boekplaatjeid {
+  margin-top: 100px;
+  color: blue;
+}
+
+#boektoevoegentitel {
+  align-items: center;
+}
+.Boektoevoegeninputs {
+  border: none;
+  border-bottom: solid 1px #f28500;
+  outline: none;
+}
+
+#Boekdescriptieid {
+  border: none;
+  border-bottom: solid 1px #f28500;
+  outline: none;
+}
+
+#achtergrond {
+  background-image: url("../images/Colordesign.png");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#boektoevoegenwrapper {
+  width: 480px;
+  height: 700px;
+  background-color: #ffffff;
+  border: solid 3px #d2d1ec;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
